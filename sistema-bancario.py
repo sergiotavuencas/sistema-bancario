@@ -21,7 +21,7 @@ LIMITE_QUANTIDADE_SAQUES = 3
 LIMITE_SAQUE = Decimal('500')
 
 while True:
-    print(titulo.center(100, '-') + '\n' * 1)
+    print('\n\n' + titulo.center(100, '-') + '\n' * 1)
     operacao = int(input(menu))
     operacao_selecionada = ''
     print('\n')
@@ -60,11 +60,11 @@ while True:
     
     elif operacao == 3:
         print('> Extrato <'.center(100, '-') + '\n' * 1)
-        print(f'\nSaldo: R${saldo:.2f}\n')
         
-        if len(extrato) == 0:
-            print('\nNão há operações registradas\n')
+        if saldo <= 0:
+            print('\nNão foram realizadas movimentações\n')
         else:
+            print(f'\nSaldo: R${saldo:.2f}\n')
             print(f'\nMovimentações realizadas:\n\n{movimentacoes}\n')
             for operacao in extrato:
                 print(operacao)
@@ -75,7 +75,7 @@ while True:
         break
     
     else:
-        print('Operação não existente!\nPor favor, informe apenas uma das operações informadas acima.\n')
+        print('Operação não existente!\nPor favor, digite uma das operações informadas acima.\n')
     
     if len(operacao_selecionada) > 0:
         data_hora = datetime.now()
