@@ -31,10 +31,26 @@ Abaixo estão listadas as regras de negócio propostas para a realização do de
 * A operação de sair deve encerrar o programa.
 
 ## Resultado
-* Menu
-* Depósito
-* Saque
-* Extrato
+### Menu
+![Menu](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/menu01.png)
+
+![Menu](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/menu02.png)
+
+### Depósito
+![Depósito](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/deposito01.png)
+
+![Depósito](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/deposito02.png)
+
+### Saque
+![Saque](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/saque01.png)
+
+![Saque](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/saque02.png)
+
+![Saque](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/saque03.png)
+
+### Extrato
+
+![Extrato](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/extrato.png)
 
 ## Github
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sergiotavuencas)](https://github.com/anuraghazra/github-readme-stats)
