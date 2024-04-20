@@ -11,11 +11,14 @@
 - [Contato](#contato)
 
 ## Sobre o desafio
-O desafio foi proposto pela **[DIO](https://www.dio.me/)** **(Digital Innovation One)** a fim de oferecer uma experiência prática de desenvolvimento utilizando Python. A ideia central do desafio é construir um sistema básico de banco para executar movimentações financeiras em apenas uma conta bancária utilizando os fundamentos da programação, onde o sistema oferece as seguintes funções:
+O desafio foi proposto pela **[DIO](https://www.dio.me/)** **(Digital Innovation One)** a fim de oferecer uma experiência prática de desenvolvimento utilizando Python. A ideia central do desafio é construir um sistema básico de banco para executar movimentações financeiras utilizando os fundamentos da programação, onde o sistema oferece as seguintes funções:
 
 * Depósito
 * Saque
 * Extrato
+* Novo Usuário
+* Listar Contas
+* Nova Conta
 * Sair
 
 ## Regras de Negócio
@@ -28,6 +31,11 @@ Abaixo estão listadas as regras de negócio propostas para a realização do de
 * A operação de saque pode ser realizada três vezes por dia.
 * O extrato deve exibir o saldo da conta, assim como todas as movimentações.
 * Caso não haja movimentações, deve-se exibir uma mensagem informando o usuário.
+* Ao cadastrar um novo usuário, nome e o cpf são campos obrigatórios.
+* CPFs são únicos, portanto, não devem ser repetidos.
+* É necessário estar cadastrado como usuário para a criação da conta.
+* Um usuário pode possuir diversas conta, mas cada conta pertence a apenas um usuário.
+* O número das contas devem ser sequenciais.
 * A operação de sair deve encerrar o programa.
 
 ## Resultado
@@ -49,8 +57,19 @@ Abaixo estão listadas as regras de negócio propostas para a realização do de
 ![Saque](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/saque03.png)
 
 ### Extrato
-
 ![Extrato](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/extrato.png)
+
+### Novo Usuário
+![Novo Usuário](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/novo_usuario01.png)
+![Novo Usuário](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/novo_usuario02.png)
+
+### Nova Conta
+![Nova Conta](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/nova_conta01.png)
+![Nova Conta](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/nova_conta02.png)
+![Nova Conta](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/nova_conta03.png)
+
+### Listar Contas
+![Listar Contas](https://github.com/sergiotavuencas/sistema-bancario/blob/screenshots/listar_contas.png)
 
 ## Github
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sergiotavuencas)](https://github.com/anuraghazra/github-readme-stats)
