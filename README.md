@@ -21,6 +21,16 @@ O desafio foi proposto pela **[DIO](https://www.dio.me/)** **(Digital Innovation
 * Nova Conta
 * Sair
 
+Na versão mais recente do desafio (V3), novas classes foram criadas seguindo o UML proposto a fim de colocar em prática os conceitos da POO, sendo eles:
+
+* Abstração
+* Encapsulamento
+* Herança
+* Polimorfismo
+* Interfaces e Classes Abstratas
+
+***OBS: Para esta versão do desafio, a ideia é apenas criar as classes, portanto, as mesmas não estão sendo utilizadas.***
+
 ## Regras de Negócio
 Abaixo estão listadas as regras de negócio propostas para a realização do desafio:
 
